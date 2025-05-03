@@ -52,3 +52,74 @@
     </p>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavya Nerella</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f0f4f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #007acc;
+            color: white;
+            padding: 50px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #007acc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bhavya Nerella</h1>
+    <p>Passionate about improving healthcare through quality & technology</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>I am a healthcare IT professional with experience in Quality Control, GMP compliance, SAP/LIMS, and analytical testing methodologies like HPLC, GC, and UV-Vis.</p>
+
+    <h2>Connect with Me</h2>
+    <a class="button" href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank">LinkedIn</a>
+    <a class="button" href="mailto:your-email@example.com">Email Me</a>
+</section>
+
+<footer>
+    © 2025 Bhavya Nerella | All Rights Reserved
+</footer>
+
+</body>
+</html>
+
