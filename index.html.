@@ -7,63 +7,52 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
             text-align: center;
-            background: #f0f4f8;
-            margin: 0;
-            padding: 0;
+            padding: 50px;
         }
-        header {
-            background: #007acc;
-            color: white;
-            padding: 50px 20px;
+        h1 {
+            color: #2c3e50;
         }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
+        p {
             font-size: 1.2em;
-            margin: 10px 0 0;
         }
-        section {
-            padding: 40px 20px;
-        }
-        a.button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: #007acc;
-            color: white;
+        a {
+            color: #3498db;
             text-decoration: none;
-            border-radius: 5px;
+            margin: 0 10px;
         }
-        footer {
-            background: #333;
-            color: white;
-            padding: 20px;
-            font-size: 0.9em;
+        a:hover {
+            text-decoration: underline;
+        }
+        .tagline {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+        .projects {
+            margin-top: 30px;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .project {
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
-
-<header>
     <h1>Bhavya Nerella</h1>
-    <p>Passionate about improving healthcare through quality & technology</p>
-</header>
-
-<section>
-    <h2>About Me</h2>
-    <p>I am a healthcare IT professional with experience in Quality Control, GMP compliance, SAP/LIMS, and analytical testing methodologies like HPLC, GC, and UV-Vis.</p>
-
-    <h2>Connect with Me</h2>
-    <a class="button" href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank">LinkedIn</a>
-    <a class="button" href="mailto:your-email@example.com">Email Me</a>
-</section>
-
-<footer>
-    © 2025 Bhavya Nerella | All Rights Reserved
-</footer>
-
-</body>
-</html>
+    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img" />
+    <p class="tagline">Passionate about improving healthcare through quality & technology</p>
+    <p>
+        <a href="https://www.linkedin.com/in/bhavyanerella" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/bhavyanerella"
